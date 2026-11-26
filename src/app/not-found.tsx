@@ -1,0 +1,1 @@
+import Link from "next/link";export default function NotFound(){return <main className="wrap" style={{padding:"100px 0",textAlign:"center"}}><div className="eyebrow">404</div><h1 className="serif" style={{fontSize:48,fontWeight:500}}>This page wandered off.</h1><Link className="btn" href="/">Back to Digistore</Link></main>}
